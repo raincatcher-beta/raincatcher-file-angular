@@ -1,4 +1,4 @@
-# FeedHenry RainCatcher file [![Build Status](https://travis-ci.org/feedhenry-raincatcher/raincatcher-file.png)](https://travis-ci.org/feedhenry-raincatcher/raincatcher-file)
+# FeedHenry RainCatcher file [![Build Status](https://travis-ci.org/feedhenry-raincatcher/raincatcher-file-angular.png)](https://travis-ci.org/feedhenry-raincatcher/raincatcher-file-angular)
 
 A module for FeedHenry RainCatcher that manages files. It provides :
 - Backend services that expose REST endpoints to create and read operations for files .
