@@ -26,7 +26,7 @@ var config = {
 }
 
 angular.module('app', [
-, require('fh-wfm-file')(config)
+, require('fh-wfm-file-angular')(config)
 ...
 ])
 ```
@@ -34,6 +34,10 @@ angular.module('app', [
 ### Configuration Options
 
 The following configuration options are available for this module:
+
+#### userMode (Required)
+
+Specifies if module should filter images using current user id.
 
 #### uploadEnabled (Required)
 

@@ -39,6 +39,7 @@
     "grunt-mochify": "^0.3.0",
     "load-grunt-tasks": "^3.5.2",
     "mochify": "^2.18.1",
+    "should": "^11.1.1",
     "proxyquireify": "^3.2.1",
     "sinon": "^1.17.6",
     "sinon-as-promised": "^4.0.2"
