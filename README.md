@@ -59,7 +59,6 @@ This is the identifier for the Angular view where the list of Files will be rend
 
 #### Angular Services (Depreciated)
 
-Please move to use mediator subscribers.
 See section bellow.
 
 This module provides a injectable file service : `fileClient`
@@ -104,20 +103,3 @@ For a more complete example around files operations, please check the [demo mobi
 |---------	|-------------------------------------	|
 | purpose 	| presents list of the files    	|
 | example 	| ```<file-list></file-list>```  	|
-
-### Topics
-
-As part of rendering Files, this module publishes and subscribes to several topics.
-These topics can be implemented in your application or you can use the fh-wfm-file module that already has implementations for these topics.
-
-##### Published Topics
-
-Each of the following topics subscribes to the `error` and `done` topics. If the parameter includes a `topicUid`,
-the error topic should have the `topicUid` appended to the `done` or `error` topic.
-
-| Topic | Parameters |
-| ---- | ----------- |
-| *wfm:files:list* | NONE |
-| *wfm:files:create* | `{ fileToCreate: fileToCreate, topicUid: topicUid}` |
-| *wfm:users:list* | NONE |
-| *wfm:users:read* | `{id: userId, topicUid: userId}` |
