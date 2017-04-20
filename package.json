@@ -25,7 +25,6 @@
     "multer": "1.1.0",
     "through2": "2.0.1",
     "uuid-js": "0.7.5",
-    "fh-wfm-mediator": "0.2.0-0",
     "ng-feedhenry": "0.3.0",
     "q": "1.4.1",
     "shortid": "^2.2.6",
