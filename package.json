@@ -1,5 +1,5 @@
 {"name": "fh-wfm-file-angular",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Angular 1 implementation for a WFM module providing file support",
   "main": "lib/file-ng.js",
   "repository": {
